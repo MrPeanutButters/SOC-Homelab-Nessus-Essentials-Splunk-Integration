@@ -1,16 +1,13 @@
 # SOC Homelab – Integrating Nessus Essentials with Splunk
 
 ## Overview
-This project expands my existing SOC Analyst Homelab by integrating **Nessus Essentials (the free version of Tenable Nessus)** with **Splunk Enterprise**. The goal is to simulate how a Security Operations Center (SOC) identifies and prioritizes vulnerabilities across endpoints while correlating this data with security events for incident response.
+This project expands my existing SOC Analyst Homelab by integrating **Nessus Essentials** with **Splunk Enterprise**. The goal is to simulate how a Security Operations Center (SOC) identifies and prioritizes vulnerabilities across endpoints while correlating this data with security events for incident response.
 
 ## Why This Matters
 In real-world SOC operations, vulnerability management and threat detection go hand in hand. By feeding Nessus Essentials scan data into Splunk, I can:
 - Visualize vulnerability exposure across Windows and Linux systems
 - Correlate vulnerability data with real-time events (e.g., brute-force attacks)
 - Trigger alerts when high-risk vulnerabilities are being actively exploited
-
-## Architecture
-![Architecture Diagram](Architecture-Diagram.png)
 
 **Key Components:**
 - **Ubuntu Server (SIEM/Scanner):** Hosts Splunk Enterprise and Nessus Essentials  
@@ -26,7 +23,7 @@ In real-world SOC operations, vulnerability management and threat detection go h
 5. **Map vulnerabilities to MITRE ATT&CK** techniques for deeper analysis  
 
 ## Skills Demonstrated
-- Vulnerability scanning with **Nessus Essentials (free version of Tenable Nessus)**  
+- Vulnerability scanning with **Nessus Essentials**  
 - SIEM integration and custom dashboards in **Splunk**  
 - Threat correlation and alert creation  
 - CVE remediation prioritization  
